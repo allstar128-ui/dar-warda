@@ -1,0 +1,153 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face { font-family: Westiva; src: url('font/font.woff2'); } 
+@font-face { font-family: Westiva; font-weight: bold; src: url('font/font.woff');}
+
+
+body{
+  margin: 0;
+  padding: 0; 
+  background-image:url('img/dwarda.gif');
+  background-position: center;
+  background-size: cover; 
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+html {
+  cursor: url("img/Pink_Rose.cur"), pointer;
+  
+}
+
+header{
+width: 100%;
+/* height: 10vh; */
+/* background-color: #000; */
+font-size: 24px;
+}
+
+h1 {
+    color: #7969ED;
+    text-align: center;
+    font-family: Westiva;
+    margin-top: 1vh;
+    font-weight: bold;
+
+}
+
+
+/*about*/
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing:border-box;
+    height: 100vh;
+     /* background-color: black; */
+  }
+
+  #about h1{
+    margin-bottom: 7rem;
+    font-size: 30px;
+    font-family: Westiva;
+    
+  }
+
+
+
+
+    
+    /* #contact {
+      margin-right: 85rem;
+      color: white;
+      font-size: 16px;
+    } */
+
+    .instagram {
+      font-size: 20px;
+      text-decoration: none;
+      color: #7969ED;
+      cursor: pointer;
+      
+      
+    }
+
+    /*FOOTER*/
+
+    footer {
+        /* background-color: black; */
+        width: 100%;
+        height: 100px;
+        padding: 20px 10px;
+      }
+      
+      footer p {
+        
+        font-size: 22px;
+        color: #7969ED
+        /* text-align: left; */
+        font-family: Westiva;
+      }
+
+
+/* added css by me */
+      /* #wardaVideo {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      } */
+      
+      
+
+      .copyright{
+
+        color: #7969ED
+  
+
+      }
+      .contact{
+        text-align: center;
+        color: #7969ED;
+      }
+
+      .footer-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        /* background-color: black; */
+
+      }
+
+      /* preloader */
+     
+      .preloader {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background-image: url('img/rose_blooming1_1.gif');
+        background-repeat: no-repeat; 
+        background-color: #000;
+        background-position: center;
+     }
+
